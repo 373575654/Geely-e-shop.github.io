@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/shopping_header.css">
+    <link rel="stylesheet" href="css/shopping_footer.css">
+    <link rel="stylesheet" href="css/product_order.css">
+		<script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+</head>
+<body>
+    <div class="main">
+        <header id="header"></header>
+        <div class="order-wrap">
+            <form action="">
+                <div class="order-main">
+                    <h2>在线订购</h2>
+                    <div class="tips">
+                        尊敬的客户，<span>*</span>为必填项，您的信息我们会完全保密，请放心填写。
+                    </div>
+                    <div class="add-box" style="height:42px;">
+                        <p class="lf be"><span>*</span>真实姓名：</p>
+                        <input type="text" value="" name="username" id="username" placeholder="您的真实姓名">
+                        <span for="username" class="help-inline validate" style="display: none;">请输入真实姓名</span>
+                        <input type="hidden" value="" name="tel" id="tel" placeholder="您的手机号">
+                        <input type="hidden" value="" name="code" id="code" placeholder="输入短信验证码">
+                        <div class="gry" id="wzc"></div>
+                    </div>
+                    <div class="add-box">
+                        <p class="lf clear be"><span>*</span>特约店地址：</p>
+                        <div class="select-box lf">
+                            <select class="s" name="sl_name" id="sl_name">
+                                <option value="-1">请选择</option>
+                            </select>
+                            <select class="s" name="cty_name" id="cty_name">
+                                <option value="-1">请选择</option>
+                            </select>
+                            <div class="clear"></div>
+                            <select name="jxs_name" id="jxs_name">
+                                <option value="-1">请选择</option>
+                            </select>
+                            <span for="jxs_name" class="help-inline validate" style="display: none;">请选择经销商</span>
+                            <div class="clear"></div>
+                            <p class="gry"></p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="add-box">
+                        <p><span>*</span><b>付款金额：</b></p>
+                        <input type="button" value="订金 ￥ 500" class="button je1 on">
+                        <input type="button" value="全款 ￥ 75900" class="button je2 ">
+                        <input type="hidden" value="1" name="ptype" id="ptype" class="button">
+                        <input type="hidden" value="303" name="carout" id="carout" class="button">
+                        <input type="hidden" value="154" name="carlt" id="carlt" class="button">
+                        <input type="hidden" value="203" name="cartype" id="cartype" class="button">
+                        <input type="hidden" value="78" name="carinner" id="carinner" class="button">
+                        <input type="hidden" value="79" name="proid" id="proid" class="button">
+                        <input type="hidden" value="Z06FE2MRHSD5000C24" name="MAT_CODE" id="MAT_CODE" class="button">
+                        <input type="hidden" value="远景S1-钛金灰-1.5L+5MT-锋驰型-酷黑" name="title" id="title" class="button">
+                        <div class="clear"></div>
+                    </div>
+                    <div class="add-box nobr">
+                        <p class="lf"><b>备注</b></p>
+                        <textarea name="content" id="content"></textarea>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="order-sure">
+                    <div class="top"></div>
+                    <div class="mid">
+                        <div class="main">
+                            <h2>确认订单</h2>
+                            <table width="100%">
+                                <tbody>
+                                <tr>
+                                    <th>
+                                        <span class="lf">商品</span>
+                                    </th>
+                                    <th>付款方式</th>
+                                    <th>单价</th>
+                                    <th>数量</th>
+                                    <th class="nobg">小计</th>
+                                </tr>
+                                <tr id="loadinfo">
+                                    <!--<td width="484">-->
+                                        <!--<img src="img/order/15109067161403prqcu.png" width="260" height="146" alt="" class="lf">-->
+                                        <!--<p class="fz16 lf">远景S1 </p>-->
+                                        <!--<p class="lf" id="catagory">-->
+                                            <!--颜色：<span>钛金灰</span>-->
+                                            <!--&nbsp;&nbsp;排量：<span>1.5L+5MT</span><br>-->
+                                            <!--型号：<span>锋驰型</span>-->
+                                            <!--&nbsp;&nbsp;内饰：<span>酷黑</span>-->
+                                        <!--</p>-->
+                                    <!--</td>-->
+                                    <!--<td class="xxtype">订金</td>-->
+                                    <!--<td class="xprice1">500元</td>-->
+                                    <!--<td>1</td>-->
+                                    <!--<td class="xprice2"><span>500元</span></td>-->
+                                </tr>
+                                </tbody>
+                            </table>
+                            <div class="tips" style="position:relative;">
+                                <div style="position:absolute; color:#ff0000; top:32px; left:18px;"></div>
+                                <div class="select lf" style="display:none">
+                                    <label class="f-cb">
+                                        <input type="checkbox" class="lf">
+                                        <p class="lf">选择优惠券</p>
+                                        <select name="procoupon" id="procoupon">
+                                            <option value="0" data-val="0">请选择</option>
+                                        </select>
+                                    </label>
+                                </div>
+                                <p class="rf" style="margin-bottom: 5px">商品总计：<span class="xprice3"></span><span class="y">元</span></p>
+                            </div>
+                            <hr style="margin-top: 40px">
+                            <div style="height: 126px;margin-top: -10px;">
+                                <p style="padding-top: 22px;font-size: 16px;width: 105px;float: left;margin-left: 720px;height: 30px">请输入验证码 :</p>
+                                <input type="text" style="float: right;margin-top: 15px;width:135px;height: 32px" name="captchas" placeholder=" 请输入结果" class="yzm">
+                                <span for="captchas" class="help-inline validate" style="font-weight: bold;display: none;">请输入验证码</span>
+                                <a href="javascript:void(0);" class="resi-get-code wh tc">
+                                    <img title="看不清点击换一张" id="setYzm" src="data/routes/users/code_gg.php"
+                                         style="width:100px;height:35px;margin:4px;" class="rf clear"/>
+                                </a>
+                            </div>
+                            <div class="add-box">
+                                <input type="submit" value="下一步" class="submit rf" data-target="#modal-reg" data-toggle="modal">
+                                <a href="javascript:history.go(-1);" class="rf">返回</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bot"></div>
+                </div>
+            </form>
+        </div>
+        <footer id="footer"></footer>
+    </div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/shopping_header.js"></script>
+    <script src="js/shopping_footer.js"></script>
+    <script src="js/product_order.js"></script>
+		<script src="js/bootstrap.js"></script>
+    <script src="js/bootlint.js"></script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/shopping_header.css">
+	<link rel="stylesheet" href="css/shopping_footer.css">
+	<link rel="stylesheet" href="css/product_detail.css">
+</head>
+<body>
+	<div class="main">
+		<header id="header"></header>
+		<div class="about-order">
+			<div class="order-detail">
+				<form action="" id="form-order">
+					<div class="order-list lf clear">
+						<div class="money">
+							<p>指导价</p>
+							<p class="intr-price">---</p>
+						</div>
+						<div class="tips">
+							<p class="lf clear">
+								<span></span>
+							</p>
+							<div class="lf clear"></div>
+						</div>
+						<div class="list-box first">
+							<div class="title">
+								<span class="lf clear">1</span>
+								独特外观：
+							</div>
+							<!--动态加载-->
+							<div class="color" id="car-out">
+								<ul>
+									<!--<li class="lf clear on">-->
+										<!--<img src="img/product_detail/1500027860682e1c76.png">-->
+										<!--<p>汉白玉</p>-->
+									<!--</li>-->
+									<!--<li class="lf clear">-->
+										<!--<img src="img/product_detail/15000278280837pd4bl.png">-->
+										<!--<p>墨玉黑</p>-->
+									<!--</li>-->
+									<!--<li class="lf clear">-->
+										<!--<img src="img/product_detail/1500027801861jog3n.png">-->
+										<!--<p>珍珠银</p>-->
+									<!--</li>-->
+									<!--<li class="lf clear">-->
+										<!--<img src="img/product_detail/1500027772943kx6iq.png">-->
+										<!--<p>珊瑚红</p>-->
+									<!--</li>-->
+									<!--<li class="lf clear">-->
+										<!--<img src="img/product_detail/150002774825115503y.png">-->
+										<!--<p>玛瑙棕</p>-->
+									<!--</li>-->
+									<!--<li class="lf clear">-->
+										<!--<img src="img/product_detail/15000277121988srhhz.png">-->
+										<!--<p>钛铂金</p>-->
+									<!--</li>-->
+								</ul>
+							</div>
+							<div class="img">
+								<img src="" alt="" style="showImg">
+								<div class="mask" id="mask"></div>
+								<div class="supermask" id="supermask"></div>
+							</div>
+						</div>
+						<div class="list-box second">
+							<div class="title">
+								<span class="lf clear">2</span>
+								特定排量：
+							</div>
+							<div class="word-list" id="carList">
+								<!--<span class="lf clear on">2.0L手动</span>-->
+								<!--<span class="lf clear">1.8TD自动</span>-->
+								<!--<span class="lf clear">1.8TD自动四驱</span>-->
+							</div>
+						</div>
+						<div class="list-box second third">
+							<div class="title">
+								<span class="lf clear">3</span>
+								专属型号：
+							</div>
+							<div class="word-list" id="carType">
+								<!--<span class="lf clear on">智尚型</span>-->
+								<!--<span class="lf clear">智联型</span>-->
+							</div>
+						</div>
+						<div class="list-box first fourth">
+							<div class="title">
+								<span class="lf clear">4</span>
+								内饰颜色：
+							</div>
+							<div class="col-list" id="carInner">
+								<!--<li class="on">-->
+									<!--<img src="img/product_detail/150025312216056m2fk.png" alt="">-->
+									<!--<p>炫黑运动内饰</p>-->
+								<!--</li>-->
+							</div>
+						</div>
+					</div>
+					<div class="car-mask">
+						<div id="largeDiv">
+						</div>
+					</div>
+					<div class="order-buy rf clear">
+						<div class="title">
+							<span>车贷计算器</span>
+						</div>
+						<div class="order-count off">
+							<div class="count-box off">
+								<p class="bank">金融机构</p>
+								<select id="banktitle">
+									<option value="0">请选择</option>
+									<option value="1">招商银行</option>
+									<option value="2">建设银行</option>
+									<option value="3">吉利金融</option>
+								</select>
+								<p class="bank">首付比例</p>
+								<select id="radio">
+									<option value="0">请选择</option>
+									<option value="1">30%</option>
+									<option value="2">40%</option>
+									<option value="3">50%</option>
+								</select>
+								<p class="bank">贷款期限</p>
+								<select id="loan">
+									<option value="0">请选择</option>
+									<option value="1">12</option>
+									<option value="2">24</option>
+									<option value="3">36</option>
+								</select>
+								<p style="margin-top:8px;">
+									<span class="lf clear">首付款金额</span>
+									<span class="rf clear" id="first-payment"></span>
+								</p>
+								<p>
+									<span class="lf clear">贷款金额</span>
+									<span class="rf clear" id="loan-payment"></span>
+								</p>
+								<p>
+									<span class="lf clear">月付款金额</span>
+									<span class="rf clear" id="month-payment"></span>
+								</p>
+								<div class="tips">
+									<span class="lf">*</span>
+									以上测算仅供参考，相关费率和月供以最终贷款合同为准
+								</div>
+							</div>
+							<div class="btn off">
+								<span class="off" id="click-btn">展开计算器</span>
+							</div>
+						</div>
+						<div class="order-pay">
+							<p>选择付款金额</p>
+							<input type="button" value="订金" class="lf clear button on" id="pre-pay">
+							<input type="button" value="全款" class="lf clear button not" id="all-pay">
+                            <div class="clear"></div>
+                            <p class="paypre" style="display: block;">实际预付订金</p>
+                            <p class="payall" style="display: none;">实际付款金额（全款）</p>
+                            <p class="loan-price price" style="display: block;">---</p>
+                            <p class="all-price price" style="display: none;">---</p>
+                            <input type="submit" class="submit" value="立刻购买" id="buy">
+                            <a href="#" class="btn process">
+                                <span class="lf clear">
+                                    <i style="top:0;">
+                                        <img class="lf clear" src="img/product_detail/process_sign.png" alt="">
+                                    </i>
+                                </span>
+                                购车流程
+                            </a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="cars-main">
+			<p style="text-align: center;" class="imgload">
+				<!--动态加载-->
+				<!--<img src="img/product_detail/boyue/1508985590921215O8Pj.jpg" title="1508985590921215O8Pj.jpg" alt="">-->
+				<!--<img src="img/product_detail/boyue/1508985595490929JexJ.jpg" title="1508985595490929JexJ.jpg" alt="">-->
+				<!--<img src="img/product_detail/boyue/1500028089727756Fq9J.jpg" title="1500028089727756Fq9J.jpg" alt="">-->
+				<!--<img src="img/product_detail/boyue/1500028099864902IzgX.jpg" title="1500028099864902IzgX.jpg" alt="">-->
+				<!--<img src="img/product_detail/boyue/15000281131439589I72.jpg" title="15000281131439589I72.jpg" alt="">-->
+				<!--<img src="img/product_detail/boyue/1500028156407247Xgbd.jpg" title="1500028156407247Xgbd.jpg" alt="">-->
+			</p>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p><br></p>
+		</div>
+		<div id="lift">
+			<ul class="lift_list">
+				<li class="lift_item">
+					<a href="javascript:;" class="lift_btn">
+						<span class="lift_btn_txt">购车流程</span>
+					</a>
+				</li>
+				<li class="lift_item">
+					<a href="javascript:;" class="lift_btn">
+						<span class="lift_btn_txt">车型细节</span>
+					</a>
+				</li>
+				<li class="lift_item">
+					<a href="javascript:;" class="lift_btn">
+						<span class="lift_btn_txt">参数设置</span>
+					</a>
+				</li>
+				<li class="lift_item" style="background:gray; color:#fff">
+					<a href="javascript:;" class="lift_btn">
+						<span class="lift_btn_txt">回到顶部</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<footer id="footer"></footer>
+	</div>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/ajax.js"></script>
+	<script src="js/shopping_header.js"></script>
+	<script src="js/shopping_footer.js"></script>
+	<script src="js/product_detail.js"></script>
+	<script>
+
+	</script>
+</body>
+</html>

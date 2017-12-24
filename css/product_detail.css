@@ -1,0 +1,446 @@
+div.about-order{
+	position:relative;
+	overflow:hidden;
+	height:951px;
+	background:url(../img/product_detail/bg_aboutorder.jpg) no-repeat center;
+}
+div.order-detail{
+	position:absolute;
+	left:50%;
+	top:0;
+	overflow:hidden;
+	width:1081px;
+	height:951px;
+	margin-left:-527px;
+}
+div.order-list{
+	position:relative;
+	z-index:2;
+	width:670px;
+	height:867px;
+	padding-top:84px;
+}
+div.order-list .money{
+	position:absolute;
+	right:-21px;
+	top:87px;
+	width:188px;
+	height:69px;
+	padding:9px 0 0 24px;
+	background:url(../img/product_detail/bg_sign19.png) no-repeat;
+	font-size:16px;
+	line-height:22px;
+	color:#fff;
+}
+div.order-list .money .intr-price{
+	font:32px/28px Arial;
+  color:#fff;
+}
+div.tips{
+	height:40px;
+	position:relative;
+	padding:32px 0 45px;
+	background:url(../img/product_detail/bg_shadow25.png) no-repeat left bottom;
+	margin-bottom:17px;
+	font-size:16px;
+	line-height:22px;
+	color:#333;
+}
+div.tips>p{
+	display:inline;
+	left:22px;
+	bottom:45px;
+	font-weight:bold;
+	font-size:30px;
+	line-height:40px;
+	color:#333;
+}
+div.tips>div{
+	display:inline;
+	width:0px;
+	height:20px;
+	margin-left:10px;
+  	border:.5px solid #a9abac;
+}
+div.list-box{
+	position:relative;
+	padding:0 0 2px 18px;
+	background:url(../img/product_detail/bg_shadow26.png) no-repeat 18px bottom;
+	margin-bottom:32px;
+}
+div.list-box.first{
+	height:143px;
+}
+div.list-box div.title{
+	width:652px;
+	height:26px;
+	margin-bottom:18px;
+	font-size:20px;
+	line-height:26px;
+	color:#333;
+}
+div.list-box div.title span{
+	display:inline-block;
+	width:26px;
+	height:26px;
+	background:url(../img/product_detail/bg_sign10.png) no-repeat center;
+	margin-right:6px;
+	text-align:center;
+}
+#car-out{
+	position:relative;
+  z-index:2;
+}
+#car-out ul{
+	margin-left:-3px;
+}
+#car-out ul li{
+	width:48px;
+	margin:0 3px;
+	display:inline-block;
+	line-height:1;
+	color:#3f3f3f;
+	text-align:center;
+	cursor:pointer;
+}
+#car-out ul li p{
+	padding-top: 10px;
+}
+#car-out ul li.on img{
+	background:url(../img/product_detail/bg_sign11.png) no-repeat center;
+}
+div.list-box .img{
+	position:absolute;
+	left:400px;
+	top:-13px;
+	width:250px;
+	height:124px;
+	background:url(../img/product_detail/loading.gif) no-repeat center center;
+}
+div.list-box .img>img{
+	border:0;
+  vertical-align:middle;
+	transition:transform 1s;
+}
+div.list-box.second{
+	height:126px;
+}
+div.list-box.second .word-list{
+	padding-left: 14px;
+}
+div.list-box.second .word-list span.on{
+	padding:0 4px;
+  border:2px solid #0066b3;
+  line-height:36px;
+}
+div.list-box.second .word-list span{
+	display:inline-block;
+	padding:0 5px;
+	border:1px solid #b9b7bd;
+	margin-right:10px;
+	font:16px/38px Arial;
+	color:#333;
+	text-align:center;
+	cursor:pointer;
+}
+div.third{
+	position:relative;
+	height:119px;
+}
+div.fourth{
+	background:none;
+}
+#carInner li{
+	list-style:none;
+	width: 48px;
+	margin: 0 3px;
+	display: inline-block;
+	line-height: 1;
+	color: #3f3f3f;
+	text-align: center;
+	cursor: pointer;
+}
+#carInner li.on img{
+	background:url(../img/product_detail/bg_sign11.png) no-repeat center;
+}
+#carInner p{
+	padding-top: 10px;
+	transition: color 500ms ease-in 0ms;
+}
+#carInner li.on p{
+	color: #0073cc;
+}
+div.car-mask{
+	width: 390px;
+	height:394px;
+	position:relative;
+	overflow: hidden;
+	z-index:-3;
+	transition: all .5s linear;
+}
+.mask{
+	position: absolute;
+	width: 125px;
+	height: 70px;
+	background: #ffa;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	display:none;
+}
+.supermask{
+	position: absolute;
+	width: 250px;
+	height: 140px;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	cursor: move;
+}
+#largeDiv{
+	width:500px;
+	height:280px;
+	display: none;
+	background: #fff;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	position: absolute;
+	border: 1px solid #ddd;
+	z-index:200;
+	transition: all .5s linear;
+}
+
+div.order-buy{
+	width: 413px;
+	margin: -393px 0 0 -2px;
+	z-index:2000;
+	/*transition:all .5s linear;*/
+}
+.order-buy .title{
+	height: 107px;
+	background: url(../img/product_detail/bg_bg07.png) no-repeat;
+}
+.order-buy .title span{
+	display: inline-block;
+	padding: 11px 0 0 151px;
+	background: url(../img/product_detail/bg_sign20.png) no-repeat 112px 44px;
+	font-size: 24px;
+	line-height: 96px;
+	color: #fff;
+}
+.order-count{
+	width: 305px;
+	padding: 12px 64px 0 44px;
+	background: url(../img/product_detail/bg_bg08.png) no-repeat center;
+	font-size: 14px;
+	line-height: 30px;
+	color: #fff;
+	transition:all .5s linear;
+}
+.order-count p{
+	padding: 0 6px 0 10px;
+	height: 30px;
+}
+.order-count.off{
+	height: 54px;
+	background-position: center center;
+}
+.order-count.on{
+	height: 437px;
+	background-position: center top;
+}
+.order-count .btn{
+	height: 42px;
+	text-align: center;
+	cursor: pointer;
+}
+.order-count .btn span{
+	display: inline-block;
+	padding-left: 14px;
+	background: url(../img/product_detail/bg_btn02.png) no-repeat left 0;
+	font-size: 16px;
+	line-height: 42px;
+	color: #fff;
+}
+.order-count .btn span.off{
+	background-position: left 0px;
+}
+.order-count .btn span.on{
+	background-position: left -42px;
+	transition:all .5s linear;
+}
+.count-box.off{
+	display: none;
+}
+.count-box.on{
+	display:block;
+	width:305px;
+	height:388px;
+}
+p.bank{
+	font-size: 16px;
+	line-height: 35px;
+	padding: 0 6px 0 10px;
+	height: 30px;
+}
+.order-buy .order-count select {
+	width: 292px;
+	height: 26px;
+	padding-left: 10px;
+	margin: 0 0 12px 7px;
+	border: 1px solid #fff;
+	background: #fff;
+	line-height: 26px;
+	color: #000;
+	z-index:100;
+}
+.order-count .tips{
+	border-top: 1px dotted #a1b9cd;
+	border-bottom: 1px dotted #a1b9cd;
+	margin: 19px 0 8px;
+	font-size: 11px;
+	line-height: 30px;
+	color: #f5f8fa;
+	padding:0;
+	height:62px;
+	background: none;
+}
+.order-count .tips span{
+	color:red;
+}
+.order-count .btn span {
+	display: inline-block;
+	padding-left: 14px;
+	background: url(../img/product_detail/bg_btn02.png) no-repeat left 0;
+	font-size: 16px;
+	line-height: 42px;
+	color: #fff;
+}
+.order-pay{
+	position: relative;
+	width: 359px;
+	height: 407px;
+	padding: 29px 21px 0 54px;
+	background: url(../img/product_detail/bg_bg09.png) no-repeat;
+	font-size: 16px;
+	line-height: 30px;
+	color: #fff;
+}
+.order-pay input.button{
+	float: left;
+	width: 116px;
+	height: 42px;
+	border: 1px solid #50a4e8;
+	background: #1f4264;
+	margin: 9px 20px 21px 0;
+	font-size: 18px;
+	line-height: 42px;
+	color: #50a4e8;
+	text-align: center;
+}
+.order-pay input.button.on{
+	height: 114px;
+	height: 42px;
+	padding-bottom: 2px;
+	border: 2px solid #fff;
+	line-height: 40px;
+	color: #fff;
+	cursor: pointer;
+}
+.order-pay p.price{
+	font: 40px/44px Arial;
+	color: #fff;
+}
+.order-pay #buy{
+	width: 267px;
+	height: 42px;
+	border: none;
+	background: red;
+	margin: 22px 0;
+	font-size: 18px;
+	line-height: 42px;
+	color: #fff;
+	cursor: pointer;
+}
+.order-pay a.btn{
+	display: inline-block;
+	margin-right: 56px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+}
+.order-pay a.btn span{
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: #5E5E5E;
+	margin-right: 14px;
+	line-height: 24px;
+	text-align: center;
+}
+.order-buy .order-pay a.btn i {
+	position: relative;
+	display: inline-block;
+	height: 100%;
+	font-style: normal;
+}
+.order-pay a.btn i img{
+	transition: transform 1s;
+}
+.cars-main{
+	width: 100%;
+	padding-top:40px;
+	background: url(../img/nav-background.jpg) repeat;
+	margin: 0 auto;
+}
+.cars-main img {
+	max-width: 100%;
+}
+
+#lift{
+    margin-top: 25px;
+    display: none;
+    position: fixed;
+    z-index: 100;
+    background-color: #918888;
+    right: 0px;
+    top:100px;
+}
+.lift_list{ display: block; list-style:none }
+.lift_item {
+    border-top: 1px solid #b1aaaa;
+    transition: background-color .1s;
+    transition:all .3s linear;
+}
+.lift_list a:hover{
+	color:#fff;
+}
+.lift_btn {
+    overflow: hidden;
+    display: block;
+    width: 24px;
+    padding: 10px 5px;
+    line-height: 14px;
+    text-align: center;
+    color: #fefefe;
+    transition: color .1s;
+}
+.lift_item:hover, .lift_item_on {
+    position: relative;
+    border-bottom: 1px solid #d70b1c;
+    margin-bottom: -1px;
+    border-color: #d70b1c;
+    background-color: #d70b1c;
+}
+.lift_btn {
+    overflow: hidden;
+    display: block;
+    width: 34px;
+    padding: 10px 5px;
+    line-height: 14px;
+    text-align: center;
+    color: #fefefe;
+    transition: color .1s;
+}

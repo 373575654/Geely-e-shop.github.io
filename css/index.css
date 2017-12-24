@@ -1,0 +1,113 @@
+.navtop{
+    height: 100%;
+    max-height: 60px;
+    width: 100%;
+    min-width: 300px;
+    background-color: #000;
+    color: #fff;
+    left: 0;
+    z-index: 1001;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    border: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-radius: 0;
+    text-align: center;
+}
+.navtop img {
+    display: inline-block;
+    float:left;
+    cursor: pointer;
+    width: 122px;
+    vertical-align: middle;
+    margin-top:19px;
+    margin-left:45%;
+}
+.navtop a{
+    display: inline-block;
+    float:right;
+    height:100%;
+    line-height: 100%;
+    text-align: center;
+    margin:20px;
+}
+.carousel-detail-button {
+    width: 170px;
+    height: 88px;
+    z-index: 100;
+    padding: 20px;
+    position: absolute;
+    left: 80%;
+    bottom: 42px;
+    cursor: pointer;
+}
+.carousel-detail-button .carousel-detail-button-content {
+    line-height: 48px;
+    border-top: 2px solid #ff485b;
+    position: relative;
+    color: #ff485b;
+    font-weight: 700;
+    font-size: 18px;
+}
+.carousel-detail-button-content>div {
+    float: left;
+    height: 20px;
+}
+.carousel-detail-button-content>div>a{
+    display: inline-block;
+    line-height: 48px;
+    position: relative;
+    color: #ff485b;
+    font-weight: 700;
+    font-size: 18px;
+}
+.carousel-detail-button-content>div:nth-child(2) {
+    position: absolute;
+    width: 20px;
+    left: 86px;
+    top: 18px;
+    transition: left .2s ease;
+}
+.carousel-detail-button-content>div:nth-child(2) .arrow {
+    width: 16px;
+    height: 12px;
+    position: relative;
+    -webkit-animation: left 0.5s alternate infinite both;
+    animation: left 0.5s alternate infinite both;
+}
+@keyframes left {
+    0% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(-5px);
+    }
+}
+
+
+.arrow .line {
+    display: inline-block;
+    width: 14px;
+    height: 2px;
+    background: #ff485b;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    z-index: 2;
+}
+.arrow .big-triangle {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-left-color: #ff485b;
+    position: absolute;
+    right: -6px;
+    top: 0;
+}

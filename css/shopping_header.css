@@ -1,0 +1,161 @@
+div.head-top{
+	height:32px;
+	background: #7d7d7d;
+}
+body,div,ul,li,p{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+div.title{
+	width:1200px;
+	margin:0 auto;
+}
+div.city{
+	float:left;
+	margin:6px 0 0 15px;
+	font-size:14px;
+	line-height:19px;
+	color: #fff;
+}
+.city>a{
+	color:#0073cc;
+	font-weight: bold;
+	margin-left:20px;
+	display: inline-block;
+}
+#city_box{
+	width: 385px;
+	height: 190px;
+	padding: 10px 0 15px 15px;
+	line-height: 20px;
+	background:#F5F5F5;
+	position: absolute;
+	top:33px;
+	left:279px;
+	z-index: 101;
+	display: none;
+}
+#city_box dl dt{
+	float:left;
+	display:block;
+	width: 40px;
+	line-height: 20px;
+	color: #000000;
+	font-weight: bold;
+}
+#city_box dl dd{
+	width: 320px;
+	height: 20px;
+	float: left;
+}
+#city_box dl dd a{
+	padding:0px 11px;
+}
+
+div.shop-car{
+	width:128px;
+	padding:0 16px 0 20px;
+	border-right: 1px solid #8f8f8f;
+}
+.fr{
+	float:right;
+	display:inline-block;
+}
+div.shop-car span.car{
+	float:left;
+	font-size:13px;
+	line-height:32px;
+	padding-left:26px;
+	color:#fff;
+}
+div.shop-car span.numcount{
+	display:inline-block;
+	width:19px;
+	float:right;
+	margin:6px 0 0 16px;
+	color:#fff;
+	background:#0087eb;
+	text-align:center;
+}
+div.login-box,div.welcome-box{
+	height:32px;
+	padding:0 16px;
+	border-right:1px solid #8f8f8f;
+	text-align:center;
+	line-height:30px;
+	color:#c5c5c5;
+}
+div.login-box a,div.welcome-box a{
+	font-size:13px;
+	color:#fff;
+	line-height:32px;
+	display:inline-block;
+	padding:0 4px;
+}
+div.welcome-box a.logout{
+	color:red;
+}
+div.phone-link{
+	position: relative;
+}
+div.phone-link span{
+	display:inline-block;
+	padding:0 20px 0 36px;
+	font-size:13px;
+	line-height:32px;
+	color:#fff;
+	border-left: 1px solid #8f8f8f;
+	border-right: 1px solid #8f8f8f;
+	position:relative;
+}
+div.phone-link span:hover{
+	display:block;
+}
+div.nav{
+	width:1200px;
+	height:81px;
+	margin:0 74.5px;
+}
+
+div.nav>ul>li{
+	float:left;
+	width:160px;
+	height:81px;
+	line-height:81px;
+	text-align:center;
+	transition:all .3s linear;
+	border-bottom:0;
+}
+div.nav>ul>li:hover{	
+	background:#0066B3;
+}
+
+div.nav>ul>li:hover a{		
+	background:transparent;
+	color:#fff;
+}
+
+div.nav>ul>li>a{
+	font-size:14px;
+	width:104px;
+	height:81px;
+}
+div.phone-link>img{
+	position:absolute;
+	top:32px;
+	left:813px;
+	z-index:100000;
+	display:none;
+}
+#mallewm:hover+.show-img{
+	cursor: pointer;
+	display: block;
+}

@@ -1,0 +1,271 @@
+.order-wrap {
+    position: relative;
+    z-index: 1;
+    padding: 64px 0 42px;
+    background: url(../img/order/bg_refund.jpg) no-repeat center top #f2f2f2;
+}
+form{
+    width:100%;
+    height:1399px;
+}
+.order-main {
+    width: 1078px;
+    padding-bottom: 45px;
+    margin: 0 auto;
+}
+.order-main h2 {
+    padding-left: 20px;
+    border-bottom: 3px solid #217bbd;
+    margin-bottom: 4px;
+    font-size: 28px;
+    line-height: 60px;
+    color: #333;
+}
+.order-main .tips {
+    padding-left: 26px;
+    font-size: 16px;
+    line-height: 54px;
+    color: #333;
+}
+.order-main span {
+    color: #f00;
+}
+.order-main .add-box span {
+    padding-right: 12px;
+}
+.help-inline {
+  padding-left: 5px;
+  color: #ff0000;
+  float: left;
+}
+.order-main .add-box input.error {
+    float: left;
+    width: 310px;
+    height: 28px;
+    padding: 0 20px;
+    margin-bottom: 12px;
+    border: 1px solid #ff0000;
+    background: none;
+    font-size: 12px;
+    line-height: 28px;
+    color: #999;
+}
+#catagory span{
+    color: #676565;
+}
+.order-main .add-box {
+    width: 974px;
+    padding: 24px 0 24px 44px;
+    border-bottom: 1px solid #c2c2c2;
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #333;
+}
+.order-main .add-box p.be {
+    width: 174px;
+    margin-bottom: 12px;
+}
+.order-main .add-box span {
+    padding-right: 12px;
+}
+.order-main .add-box input {
+    float: left;
+    width: 310px;
+    height: 28px;
+    padding: 0 20px;
+    margin-bottom: 12px;
+    border: 1px solid #999;
+    background: none;
+    font-size: 12px;
+    line-height: 28px;
+    color: #999;
+}
+.order-main .add-box .gry {
+    color: #0067b2;
+}
+.order-main .add-box select {
+    float: left;
+    width: 354px;
+    height: 30px;
+    border: 1px solid #999;
+    padding-left: 12px;
+    margin: 0 14px 12px 0;
+    display: inline;
+    background: none;
+}
+.order-main .add-box select.s {
+    width: 170px;
+}
+option{
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.order-main .add-box p.gry {
+    color: #7d7d7d;
+}
+.order-main .add-box input.button.on {
+    border: 2px solid #ed4e10;
+}
+.order-main .add-box input.button {
+    width: 194px;
+    height: 54px;
+    border: 1px solid #999;
+    margin: 20px 8px 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+    outline: none;
+}
+input[type="button"]:focus{
+  outline-offset: 0px;
+}
+.order-main .add-box.nobr {
+    border-bottom: none;
+}
+.order-main .add-box textarea {
+    float: left;
+    width: 828px;
+    height: 96px;
+    padding: 0 5px;
+    border: 1px solid #999;
+    margin-left: 30px;
+    display: inline;
+    font-size: 12px;
+    line-height: 24px;
+    color: #666;
+    overflow: auto;
+    vertical-align: top;
+    resize: none;
+}
+.order-sure{
+    height:710px;
+}
+.order-sure .top {
+    height: 24px;
+    background: url(../img/order/bg_bg14.png) no-repeat center top;
+}
+.order-sure .mid {
+    background: url(../img/order/bg_bg14m.png) repeat-y center;
+    height:621px;
+}
+.order-sure .main {
+    width: 968px;
+    padding-top: 24px;
+    margin: 0 auto;
+    background:#fff;
+}
+.order-sure .main h2 {
+    font-size: 26px;
+    line-height: 72px;
+    color: #333;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.order-sure .main th {
+    font-weight: normal;
+    line-height: 35px;
+    color: #676565;
+    background: url(../img/order/bg_sign33.png) no-repeat right center #f3f3f3;
+}
+.order-sure .main th span {
+    padding-left: 22px;
+}
+.order-sure .main th.nobg {
+    background-image: none;
+}
+.order-sure .main td {
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    line-height: 146px;
+    color: #676565;
+    text-align: center;
+}
+.order-sure .main td p {
+    width: 205px;
+    padding-left: 10px;
+    font-size: 12px;
+    line-height: 24px;
+    color: #676565;
+    text-align: left;
+}
+.order-sure .main p.fz16 {
+    margin-top: 40px;
+    font-size: 16px;
+    color: #0168b5;
+}
+.order-sure .main td span {
+    color: #f00;
+}
+.order-sure .tips {
+    padding: 22px 24px 22px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: right;
+}
+.order-sure .tips span {
+    display: inline-block;
+    padding-left: 10px;
+    font: 30px/38px Arial;
+    color: #f00;
+}
+.order-sure .tips span.y {
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: "微软雅黑";
+}
+.order-sure .add-box {
+    height: 116px;
+    padding: 15px 24px 0 0;
+    background: #f3f3f3;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+}
+.order-sure .add-box input.submit {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background: #f00;
+    margin-top: 16px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+.order-sure .add-box a {
+    display: inline-block;
+    width: 148px;
+    border: 1px solid #999;
+    margin: 16px 10px 0 0;
+    font-size: 14px;
+    line-height: 38px;
+    color: #333;
+    text-align: center;
+    transition: all 500ms ease-in 0ms;
+}
+input[type="text"]{
+    -webkit-appearance: none;
+}
+.order-sure .bot {
+    height: 65px;
+    background: url(../img/order/bg_bg14d.png) no-repeat center;
+}
+#footer{
+    border-top: 1px solid #fff;
+}
+
+/*模态框*/

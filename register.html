@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/shopping_header.css">
+		<link rel="stylesheet" href="css/shopping_footer.css">
+		<link rel="stylesheet" href="css/login.css">
+		<link rel="stylesheet" href="css/register.css">
+	</head>
+	<body>
+		<div class="main">
+			<header id="header" style="background:url(img/nav-background.jpg) repeat;"></header>
+			<div class="login">
+				<div class="login-content">
+					<h2>注册</h2>
+					<div class="lf clear">
+						<img src="img/login/img20.jpg" alt="">
+					</div>
+					<!-- 		phone/upwd/email		 -->
+					<div class="regis-box rf clear">
+						<form action="" id="form">
+							<div class="titl">在线注册，获得更多吉利服务</div>
+							<div class="regist-in">
+								<div class="input-out tele">
+									<input type="text" name="phone" class="tele" placeholder="*请输入手机号码" id="phone">
+									<span class="phone" style="display:inline-block;width: 120px;margin-left:3px;">
+										<img src="" alt=""/>
+										<i></i>
+									</span>
+								</div>
+								<div class="input-out code">
+									<input type="text" name="yzm" class="tel-code" placeholder="请输入" id="yzm">
+									<img title="看不清点击换一张" id="setYzm" src="data/routes/users/code_gg.php" 
+									style="width:80px;height:26px;" class="rf clear"/>
+									<span class="yzma" style="display:inline-block;width: 120px;margin-left:3px;">
+										<img src="" alt=""/>
+										<i></i>
+									</span>
+								</div>
+								<div class="input-out code">
+									<input type="text" name="code" class="tel-code2" placeholder="*手机验证码">
+									<a href="javascript:;" class="btn rf clear">发送验证码</a>
+								</div>
+								<div class="input-out mail">
+									<input type="email" name="email" class="mall" placeholder="您的邮箱" id="email">
+									<span class="umail" style="display:inline-block;width: 120px;margin-left:3px;">
+										<img src="" alt=""/>
+										<i></i>
+									</span>
+								</div>
+								<div class="input-out pass">
+									<input type="password" name="upwd" class="password" placeholder="*请输入密码" id="upwd">
+									<span class="upwd" style="display:inline-block;width: 120px;margin-left:3px;">
+										<img src="" alt=""/>
+										<i></i>
+									</span>
+								</div>
+								<div class="input-out pass">
+									<input type="password" name="upwd2" class="password" placeholder="*请再次输入密码">
+									<span class="cpwd" style="display:inline-block;width: 120px;margin-left:3px;">
+										<img src="" alt=""/>
+										<i></i>
+									</span>
+								</div>
+								<input type="button" value="立即注册" class="submit-on">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<footer id="footer"></footer>
+		</div>
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/ajax.js"></script>
+		<script src="js/shopping_header.js"></script>
+		<script src="js/shopping_footer.js"></script>
+		<script src="js/jquery.form.js"></script>
+		<script src="js/register.js"></script>
+	</body>
+</html>

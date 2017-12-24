@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的购物车</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/shopping_header.css">
+    <link rel="stylesheet" href="css/shopping_footer.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <div class="main">
+        <header id="header"></header>
+        <div class="cart-container">
+            <div class="cart-content">
+                <h2 class="fwn">我的购物车</h2>
+                <form action="#">
+                    <table width="100%" class="tablex">
+                        <thead>
+                            <tr>
+                                <th width="113">
+                                    <p class="cur all">
+                                        <span class="lf clear off"></span>
+                                        <em>全选</em>
+                                    </p>
+                                </th>
+                                <th>商品名称</th>
+                                <th width="90">单价</th>
+                                <th width="250">数量</th>
+                                <th width="90">小计</th>
+                                <th width="146">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody1">
+                            <!--<tr>-->
+                                <!--<td width="113">-->
+                                    <!--<p class="cur one" style="margin-left:20px;">-->
+                                        <!--<span class="lf clear"></span>-->
+                                        <!--<em style="display: inline-block;margin:4px;">选择</em>-->
+                                    <!--</p>-->
+                                <!--</td>-->
+                                <!--<td>-->
+                                    <!--<span style="display: inline-block;margin-left: 135px;">博越/玛瑙棕/1.8TD/智尚型/炫黑内饰</span>-->
+                                <!--</td>-->
+                                <!--<td width="90">-->
+                                    <!--&nbsp;&nbsp;&nbsp;-->
+                                    <!--<span>￥24000</span>-->
+                                <!--</td>-->
+                                <!--<td width="250" class="num">-->
+                                    <!--<div>-->
+                                        <!--<span class="reduce">&nbsp;-&nbsp;</span>-->
+                                        <!--<input data-iid="${p.iid}" type="text" value=1>-->
+                                        <!--<span class="add">&nbsp;+&nbsp;</span>-->
+                                    <!--</div>-->
+                                <!--</td>-->
+                                <!--<td width="90">-->
+                                    <!--&nbsp;&nbsp;&nbsp;-->
+                                    <!--<span>￥24000</span>-->
+                                <!--</td>-->
+                                <!--<td width="146">-->
+                                    <!--<a href="" class="btn-dele" style="display: inline-block;margin-left:60px;">删除</a>-->
+                                <!--</td>-->
+                            <!--</tr>-->
+                        </tbody>
+                    </table>
+                    <div class="price-bar">
+                        <p class="cur all lf clear">
+                            <span class="lf clear off"></span>
+                            <em>全选</em>
+                        </p>
+                        <a href="javascript:;" class="delete lf clear">删除</a>
+                        <input type="submit" value="结算" class="submit rf clear">
+                        <p class="rf clear">
+                            已选商品 <i class="totalcount">0</i>件
+                            &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                            <em>
+                                合计：
+                                <em class="totalprices">0</em>
+                                元
+                            </em>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer id="footer"></footer>
+    </div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/shopping_header.js"></script>
+    <script src="js/shopping_footer.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+div.regis-box{
+	width:505px;
+	height:494px;
+	padding:20px 51px 0 44px;
+	line-height:18px;
+	background:#fff;
+}
+div.titl{
+	border-bottom:1px solid #bbb;
+	margin:-10px 0 23px 0;
+	font-size:16px;
+	line-height:52px;
+	color:#4b4b4b;
+}
+div.regist-in{
+	width:332px;
+	height:408px;
+  margin:0 auto;
+}
+.regist-in .input-out{
+	margin-bottom:18px;
+	position:relative;
+	width:261px;
+	height:43px;
+	padding:0 12px 0 59px;
+	margin-bottom:22px;
+	background:url(../img/login/bg_input01.jpg) no-repeat;
+}
+.regist-in input{
+	width:261px;
+	height:41px;
+	border:none;
+	outline:none;
+	background:none;
+	margin:1px 0;
+	font-size:12px;
+	line-height:43px;
+	color:#666;
+}
+.regist-in .input-out.code{
+	width:273px;
+	padding-right:0;
+	background-position:0 -86px;
+	position:relative;
+}
+#setYzm{
+	position:absolute;
+	top:8px;
+	left:224px;
+}
+.yzma,.umail,.cpwd{
+	position:absolute;
+	left:339px;
+	top:12px;
+	float:right;
+}
+.yzma>img,.umail>img,.cpwd>img{
+	position:absolute;
+	left:-5px;
+	top:2px;
+}
+.yzma>i,.umail>i,.cpwd>i{
+	color:red;
+	display: inline-block;
+	margin-left:11px;
+}
+.regist-in .input-out.code a.btn{
+	display:inline-block;
+	width:125px;
+	height:43px;
+	padding:0;
+	margin:-43px 0 0 23px;
+	background:url(../img/login/bg_input03s.png) no-repeat;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	cursor:pointer;
+	line-height:43px;
+	transition:color 500ms ease-in 0ms;
+}
+input.tel-code2{
+	width:136px;
+}
+.regist-in .input-out.mail{
+	background-position:0 -129px;
+}
+.regist-in .input-out.pass{
+	background-position:0 -43px;
+}
+.regist-in .submit-on{
+	width:330px;
+	height:42px;
+	padding:0;
+	margin:-3px 0 33px;
+	background:url(../img/login/bg_input02.png) no-repeat;
+	font-size:14px;
+	color:#fff;
+}

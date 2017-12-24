@@ -1,0 +1,10 @@
+(()=>{
+	ajax({
+		type:"get",
+		url:"shopping_footer.html",
+		dataType:"html"
+	})
+	.then(html=>{
+		$("#footer").html(html);
+	})
+})();

@@ -1,0 +1,296 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.slideShow{
+	width: 1349px;
+	height: 450px;     /*其实就是图片的高度*/
+	border: 1px #eeeeee solid;
+	/*margin: 30px auto;*/
+	position: relative;
+	overflow: hidden;    /*此处需要将溢出框架的图片部分隐藏*/
+}
+.slideShow>ul{
+	width: 5000px;
+	position: relative;
+	z-index:0;
+}
+.slideShow>ul li{
+	float: left;     /*让四张图片左浮动，形成并排的横着布局，方便点击按钮时的左移动*/
+	width: 1349px;
+}
+.slideShow>ul li img{
+	width: 1349px;
+}
+.slideShow .showNav{     /*用绝对定位给数字按钮进行布局*/
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	text-align:center;
+	font-size: 12px;
+	line-height: 20px;
+}
+.slideShow .showNav span{
+	cursor: pointer;
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ff5a28;
+	margin-left: 2px;
+	color: #fff;
+}
+.slideShow .showNav .active{
+	background: #b63e1a;
+}
+
+div.type-list{
+	width:176px;
+	height:450px;
+	background:rgba(71,70,73,0.4);
+	z-index:100;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.hovershow{
+	position: absolute;
+	left:176px;
+	top:45px;
+}
+.sub{
+	/*left: 176px;*/
+    /*top: 0;*/
+    width: 277px;
+    height: 78px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    /*position:absolute;*/
+	background: #fff;
+}
+.sub a.sub-btn {
+    width: 262px;
+    height: 78px;
+    padding-left: 15px;
+    background: #fff;
+    font-size: 14px;
+    line-height: 78px;
+    color: #333;
+    margin-left:0;
+}
+.sub a.sub-btn span {
+	display:inline-block;
+    letter-spacing: 0;
+    margin-right: 70px;
+    color: #333;
+    font-size: 14px;
+    line-height: 70px;
+}
+.dn{
+	display: none;
+}
+div.type-list li{
+	height:40px;
+	width:174px;
+	padding-left:2px;
+}
+div.type-list li:hover{
+	background:#5E5E5E;
+	color:#EEEEEE;
+}
+div.type-list li:first-child{
+	width:156px;
+	height:45px;
+	color:#fff;
+	font-size:16px;
+	padding-left:20px;
+	line-height:45px;
+	background:#676461;
+	border:none;
+}
+
+div.type-list li a{
+	color:#fff;
+	font-size:14px;
+	line-height:40px;
+	text-align:center;
+	margin:0 20px;
+}
+div.type-list li span{
+	color:#fff;
+	float:right;
+	margin-right:25px;
+	padding-top:8px;
+	font-size:1.5em;
+}
+div.type-list li:last-child{
+	height:68px;
+}
+div.type-list li:last-child a{
+	color:#fff;
+	font-size:14px;
+}
+
+div.hot{
+	width:1349px;
+	height:1100px;
+	margin:0 auto;
+	padding: 54px 0 72px;
+}
+#hot-car{
+	width:1201px;
+	min-height:1000px;
+	margin:0 auto;
+}
+#hot-car>div.title{
+	height:95px;
+	font-size:26px;
+	color:#333;
+	line-height:33px;
+	text-align:center;
+}
+#hot-car>div.title>p.en{
+	padding-bottom: 0;
+  font:12px/20px Arial;
+}
+#hot-car>div.title a.more{
+	display: inline-block;
+	right: 0;
+	bottom: 10px;
+	width: 91px;
+	padding-left: 23px;
+	margin-top:-8px;
+	background: url(../img/index/bg_sign07.png) no-repeat right center;
+	border: 1px solid #0087eb;
+	font-size: 14px;
+	line-height: 37px;
+	color: #0087eb;
+	text-align: left;
+	transition: all 0.5s;
+}
+#hot-car>div.title a.more:hover{
+	border-color: #333;
+	background-position: left center;
+	color: #333;
+}
+div.list{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+div.list>div:first-child{
+	width:301px;
+	height:662px;
+}
+div.list>div:first-child>a>img{
+	width:301px;
+	height:662px;
+}
+div.list>div.top-car ul{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+div.list>div.top-car{
+	width:900px;
+	height:662px;
+	display:flex;
+	justify-content:space-between;
+	background:#fff;
+}
+div.list>div.top-car li{
+	width:300px;
+	height:331px;
+	box-sizing:border-box;
+}
+
+div.list>div.bottom-car{
+	width:1201px;
+	height:331px;
+	background:#fff;
+}
+
+div.list>div.bottom-car ul{
+	display:flex;
+	justify-content:space-between;
+}
+div.list>div.bottom-car li{
+	width:300px;
+	height:331px;
+	box-sizing:border-box;
+}
+div.list>div.bottom-car li:first-child{
+	width:301px;
+}
+#pic,#pic-bottom{
+	display:block;
+	width:253px;
+	height:180px;
+	margin:0 auto;
+}
+ul div.price{
+	font-size:22px;
+  	line-height:34px;
+  	color: #e54726;
+	width:253px;
+	margin:0 auto;
+}
+ul div.price>span{
+	display:inline-block;
+	width:15px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	font-size:16px;
+}
+ul li a.car-name{
+	display:block;
+  width:253px;
+	margin:0 auto;
+  color:#333;
+	outline:none;
+	font-size:14px;
+	line-height:24px;
+	text-align:left;
+}
+p.click{
+	width:94px;
+	height:28px;
+	padding-bottom:2px;
+	background: #e54726;
+	margin:13px 0 0 23px;
+	box-shadow:2px 2px 2px rgba(0,0,0,0.1);
+	transition:all .3s linear;
+}
+ul li p.click a{
+	display:block;
+	color:#fff;
+	font-size:14px;
+	line-height:28px;
+	text-align:center;
+	margin:0 auto;
+}
+ul li p.order{
+	margin-right:20px;
+	margin-top:20px;
+}
+ul li p.desc{
+	width:253px;
+	height:21px;
+	line-height:21px;
+	text-align:left;
+	margin:0 auto;
+	font-size:13px;
+	color:#ff7d3d;
+}
+#header,#banner,div.hot{
+	background:url(../img/nav-background.jpg) repeat;
+}
+div.top-car li img,div.bottom-car li img{
+	transition:all 0.4s;
+}
+div.top-car li img:hover,div.bottom-car li img:hover{
+	transform:translate(3px,3px);
+}
+p.click:hover{
+	background:#0aa1ed;
+}
