@@ -11,4 +11,4 @@ PS：由于需要通过PHP访问后端服务器，小菜鸟一枚暂时还木有
 
 望各位海涵(*^_^*)
 
-在线演示地址： https://373575654.github.io/Geely-e-shop.github.io/
+在线演示地址： http://cherry.applinzi.com/
